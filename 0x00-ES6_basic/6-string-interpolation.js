@@ -1,3 +1,6 @@
+/*
+string_interpolation
+ */
 export default function getSanFranciscoDescription() {
     const year = 2017;
     const budget = {
