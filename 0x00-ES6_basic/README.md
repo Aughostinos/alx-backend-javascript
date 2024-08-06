@@ -1,208 +1,3 @@
-      window.dataLayer = window.dataLayer || \[\]; dataLayer.push({"userId":492381,"visitorType":"student","batch":{"id":150,"fullNameWithC":"AFR-1023 (C#21)","schoolLocation":{"id":1,"name":"ALX Africa"}},"curriculum":{"id":17,"name":"Short Specializations"}}); window.gtm\_user\_custom\_event = function (name, options) { if (typeof name === 'undefined') { return; } window.dataLayer.push({ customEventOptions: typeof options !== 'undefined' ? options : {}, event: name, }); } (function(w,d,s,l,i){w\[l\]=w\[l\]||\[\];w\[l\].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)\[0\], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-N4C8MF2'); Project: 0x00. ES6 Basics | ALX Africa Intranet          Cookies.set('timezone', (new Date()).getTimezoneOffset() / -60.0);  
-
-Toggle navigation[
-
-](/)
-
-*   [
-    
-    Home
-    
-    ](/)
-*   [
-    
-    My Planning
-    
-    ](/planning/me)
-*   [
-    
-    Projects
-    
-    ](/projects/current)
-*   [
-    
-    QA Reviews I can make
-    
-    ](/corrections/to_review)
-*   [
-    
-    Evaluation quizzes
-    
-    ](/dashboards/my_current_evaluation_quizzes)
-
-* * *
-
-*   [
-    
-    Curriculums
-    
-    ](/dashboards/my_curriculums)
-*   [
-    
-    Concepts
-    
-    ](/concepts)
-*   [
-    
-    Conference rooms
-    
-    ](/dashboards/video_rooms)
-*   [
-    
-    Servers
-    
-    ](/servers)
-*   [
-    
-    Sandboxes
-    
-    ](/user_containers/current)
-*   [
-    
-    Tools
-    
-    ](/dashboards/my_tools)
-*   [
-    
-    Video on demand
-    
-    ](/dashboards/videos)
-
-* * *
-
-*   [
-    
-    Peers
-    
-    ](/users/peers)
-
-* * *
-
-*   [
-    
-    Discord
-    
-    ](https://discord.com/app)
-    
-    [
-    
-    My Profile
-    
-    ](/users/my_profile)
-    
-
-[
-
-](/)
-
-*   [
-    
-    Home
-    
-    ](/)
-*   [
-    
-    My Planning
-    
-    ](/planning/me)
-*   [
-    
-    Projects
-    
-    ](/projects/current)
-*   [
-    
-    QA Reviews I can make
-    
-    ](/corrections/to_review)
-*   [
-    
-    Evaluation quizzes
-    
-    ](/dashboards/my_current_evaluation_quizzes)
-
-* * *
-
-*   [
-    
-    Curriculums
-    
-    ](/dashboards/my_curriculums)
-*   [
-    
-    Concepts
-    
-    ](/concepts)
-*   [
-    
-    Conference rooms
-    
-    ](/dashboards/video_rooms)
-*   [
-    
-    Servers
-    
-    ](/servers)
-*   [
-    
-    Sandboxes
-    
-    ](/user_containers/current)
-*   [
-    
-    Tools
-    
-    ](/dashboards/my_tools)
-*   [
-    
-    Video on demand
-    
-    ](/dashboards/videos)
-
-* * *
-
-*   [
-    
-    Peers
-    
-    ](/users/peers)
-
-* * *
-
-*   [
-    
-    Discord
-    
-    ](https://discord.com/app)
-    
-    [
-    
-    My Profile
-    
-    ](/users/my_profile)
-    
-
-Curriculum
-
-Short Specializations Average: 0.0%
-
-*   [
-    
-    Short Specializations Average: 0.0%
-    
-    
-    
-    ](/curriculums/17/observe)
-*   [
-    
-    SE Foundations Average: 92.16%
-    
-    
-    
-    ](/curriculums/1/observe)
-
-You just released the advanced tasks of this project. Have fun!
-
 0x00. ES6 Basics
 ================
 
@@ -426,34 +221,6 @@ Execution example:
 *   Directory: `0x00-ES6_basic`
 *   File: `0-constants.js`
 
-Done?! Check your code
-
-×
-
-#### Correction of "0. Const or let?"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
-
 ### 1\. Block Scope
 
 mandatory
@@ -493,34 +260,6 @@ Execution:
 *   Directory: `0x00-ES6_basic`
 *   File: `1-block-scoped.js`
 
-Done?! Check your code
-
-×
-
-#### Correction of "1. Block Scope"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
-
 ### 2\. Arrow functions
 
 mandatory
@@ -557,34 +296,6 @@ Execution:
 *   GitHub repository: `alx-backend-javascript`
 *   Directory: `0x00-ES6_basic`
 *   File: `2-arrow.js`
-
-Done?! Check your code
-
-×
-
-#### Correction of "2. Arrow functions"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 3\. Parameter defaults
 
@@ -628,34 +339,6 @@ Execution:
 *   Directory: `0x00-ES6_basic`
 *   File: `3-default-parameter.js`
 
-Done?! Check your code
-
-×
-
-#### Correction of "3. Parameter defaults"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
-
 ### 4\. Rest parameter syntax for functions
 
 mandatory
@@ -694,34 +377,6 @@ Execution:
 *   Directory: `0x00-ES6_basic`
 *   File: `4-rest-parameter.js`
 
-Done?! Check your code
-
-×
-
-#### Correction of "4. Rest parameter syntax for functions"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
-
 ### 5\. The wonders of spread syntax
 
 mandatory
@@ -754,34 +409,6 @@ Execution:
 *   GitHub repository: `alx-backend-javascript`
 *   Directory: `0x00-ES6_basic`
 *   File: `5-spread-operator.js`
-
-Done?! Check your code
-
-×
-
-#### Correction of "5. The wonders of spread syntax"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 6\. Take advantage of template literals
 
@@ -822,34 +449,6 @@ Execution:
 *   Directory: `0x00-ES6_basic`
 *   File: `6-string-interpolation.js`
 
-Done?! Check your code
-
-×
-
-#### Correction of "6. Take advantage of template literals"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
-
 ### 7\. Object property value shorthand syntax
 
 mandatory
@@ -887,34 +486,6 @@ Execution:
 *   GitHub repository: `alx-backend-javascript`
 *   Directory: `0x00-ES6_basic`
 *   File: `7-getBudgetObject.js`
-
-Done?! Check your code
-
-×
-
-#### Correction of "7. Object property value shorthand syntax"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 8\. No need to create empty objects before adding in properties
 
@@ -956,34 +527,6 @@ Execution:
 *   GitHub repository: `alx-backend-javascript`
 *   Directory: `0x00-ES6_basic`
 *   File: `8-getBudgetCurrentYear.js`
-
-Done?! Check your code
-
-×
-
-#### Correction of "8. No need to create empty objects before adding in properties"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 9\. ES6 method properties
 
@@ -1032,34 +575,6 @@ Execution:
 *   Directory: `0x00-ES6_basic`
 *   File: `9-getFullBudget.js`
 
-Done?! Check your code
-
-×
-
-#### Correction of "9. ES6 method properties"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
-
 ### 10\. For...of Loops
 
 mandatory
@@ -1094,34 +609,6 @@ Execution:
 *   GitHub repository: `alx-backend-javascript`
 *   Directory: `0x00-ES6_basic`
 *   File: `10-loops.js`
-
-Done?! Check your code
-
-×
-
-#### Correction of "10. For...of Loops"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 11\. Iterator
 
@@ -1165,33 +652,7 @@ Execution:
 *   Directory: `0x00-ES6_basic`
 *   File: `11-createEmployeesObject.js`
 
-Done?! Check your code
 
-×
-
-#### Correction of "11. Iterator"
-
-Start a new test Close
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Skipped - Previous check failed
-
-Get a sandbox
 
 ### 12\. Let's create a report object
 
