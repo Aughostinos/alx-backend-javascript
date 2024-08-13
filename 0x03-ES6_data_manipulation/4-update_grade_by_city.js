@@ -1,6 +1,6 @@
 function updateStudentGradeByCity(getListStudents, city, newGrades) {
   return getListStudents
-    .filters((student) => student.location === city)
+    .filter((student) => student.location === city)
     .map((student) => {
       const updatedGrades = newGrades.find((grade) => grade.studentId === student.id);
       return {
