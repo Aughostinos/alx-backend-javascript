@@ -4,3 +4,4 @@ function getListStudents() {
     { id: 5, firstName: 'Serena', location: 'San Francisco' }];
   return array;
 }
+export default getListStudents;
