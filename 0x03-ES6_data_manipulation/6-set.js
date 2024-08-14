@@ -1,4 +1,4 @@
 function setFromArray(arr) {
-  return new Set(array);
+  return new Set(arr);
 }
 export default setFromArray;
