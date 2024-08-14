@@ -1,15 +1,12 @@
 export const myWeakMap = new WeakMap();
 
-function queryAPI(endPoint){
-  if(!myWeakMap.has(endPoint)) {
-    myWeakMap.set(endPoint, 0);
-  }
+export function queryAPI(endPoint) {
+  let count = myWeakMap.get(endPoint) || 0;
+  count += 1;
 
-  let count = myWeakMap.get(endPoint) + 1;
   myWeakMap.set(endPoint, count);
 
   if (count >= 5) {
-    throw new Error('Endpoint load is high')
+    throw new Error('Endpoint load is high');
   }
 }
-export default queryAPI;
