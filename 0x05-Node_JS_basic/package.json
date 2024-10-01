@@ -5,17 +5,10 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-<<<<<<< HEAD
       "lint": "./node_modules/.bin/eslint",
       "check-lint": "lint [0-9]*.js",
       "test": "./node_modules/mocha/bin/mocha --require babel-register --exit",
       "dev": "nodemon --exec babel-node --presets babel-preset-env ./server.js ./database.csv"
-=======
-        "lint": "./node_modules/.bin/eslint",
-        "check-lint": "lint [0-9]*.js",
-        "test": "./node_modules/mocha/bin/mocha --require babel-register --exit",
-        "dev": "nodemon --exec babel-node --presets babel-preset-env ./server.js ./database.csv"
->>>>>>> 8eac3262c4faab70056e47b75128de7f9fa29eaf
     },
     "author": "",
     "license": "ISC",
@@ -24,7 +17,6 @@
       "express": "^4.17.1"
     },
     "devDependencies": {
-<<<<<<< HEAD
       "babel-cli": "^6.26.0",
       "babel-preset-env": "^1.7.0",
       "nodemon": "^2.0.2",
@@ -36,24 +28,6 @@
       "mocha": "^6.2.2",
       "request": "^2.88.0",
       "sinon": "^7.5.0"
-=======
-        "babel-cli": "^6.26.0",
-        "babel-preset-env": "^1.7.0",
-        "chai": "^4.2.0",
-        "eslint": "^7.32.0",
-        "eslint-config-airbnb-base": "^14.2.1",
-        "eslint-config-standard": "^17.1.0",
-        "eslint-plugin-import": "^2.30.0",
-        "eslint-plugin-jest": "^22.21.0",
-        "eslint-plugin-n": "^16.6.2",
-        "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^6.6.0",
-        "jest": "^29.7.0",
-        "mocha": "^6.2.2",
-        "nodemon": "^2.0.2",
-        "request": "^2.88.0",
-        "sinon": "^7.5.0"
->>>>>>> 8eac3262c4faab70056e47b75128de7f9fa29eaf
     }
   }
   
