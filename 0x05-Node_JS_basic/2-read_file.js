@@ -10,12 +10,10 @@ function countStudents(path) {
 
     const students = {};
     let studentsNum = 0;
-
-    for (let i = 1; i < lines.length; i += 1) {
-      const line = lines[i].trim();
-
-      if (line !== '') {
-        const [firstname, , , field] = line.split(','); // Ignore `lastname` and `age` as they're not used
+    for (let i = 1; i < lines.length; i++) {
+      const line = lines[i].trim()
+      if (line === '') continue;
+      const[firstname, lastname, age, field] = line.split(',');
 
         if (!students[field]) {
           students[field] = [];
@@ -24,10 +22,8 @@ function countStudents(path) {
         studentsNum += 1;  // Use += 1 instead of ++
       }
     }
-
-    console.log(`Number of students: ${studentsNum}`);
-
-    // Log the number of students in each field
+    console.log(`Number of students: ${students_num}`);
+    //It should log the number of students in each field
     for (const [field, names] of Object.entries(students)) {
       console.log(`Number of students in ${field}: ${names.length}. List: ${names.join(', ')}`);
     }
