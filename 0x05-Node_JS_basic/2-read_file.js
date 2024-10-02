@@ -15,7 +15,7 @@ function countStudents(path) {
       const line = lines[i].trim();
 
       if (line !== '') {
-        const [firstname, , , field] = line.split(','); // Ignore `lastname` and `age` as they're not used
+        const [firstname, , , field] = line.split(',');
 
         if (!students[field]) {
           students[field] = [];
