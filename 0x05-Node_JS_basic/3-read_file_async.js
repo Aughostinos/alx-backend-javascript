@@ -20,7 +20,7 @@ function countStudents(path) {
               for (let i = 0; i < header.length; i += 1) {
                 student[header[i].trim()] = studentData[i].trim();
               }
-              const field = student.field;
+              const { field } = student;
               if (!fieldStudents[field]) {
                 fieldStudents[field] = [];
               }
