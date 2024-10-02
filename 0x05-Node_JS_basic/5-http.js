@@ -2,7 +2,7 @@ const http = require('http');
 const countStudents = require('./3-read_file_async');
 
 // Create a server
-const app = http.createServer((req, res) => {
+const app = http.createServer(async (req, res) => {
   if (req.url === '/') {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
@@ -10,7 +10,7 @@ const app = http.createServer((req, res) => {
   } else if (req.url === '/students') {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('This is the list of our students');
+    res.write('This is the list of our students');
     try {
         const databasePath = process.argv[2];
         const data = await countStudents(databasePath);
