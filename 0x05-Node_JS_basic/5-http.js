@@ -34,7 +34,7 @@ const app = http.createServer((req, res) => {
               for (let j = 0; j < header.length; j += 1) {
                 student[header[j].trim()] = studentData[j].trim();
               }
-              const field = student.field;
+              const { field } = student;
               if (!fieldStudents[field]) {
                 fieldStudents[field] = [];
               }
