@@ -21,7 +21,7 @@ function countStudents(path) {
           students[field] = [];
         }
         students[field].push(firstname);
-        studentsNum += 1;  // Use += 1 instead of ++
+        studentsNum += 1; // Use += 1 instead of ++
       }
     }
 
@@ -37,3 +37,4 @@ function countStudents(path) {
 }
 
 module.exports = countStudents;
+
