@@ -6,25 +6,25 @@ const app = http.createServer(async (req, res) => {
   if (req.url === '/') {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello Holberton School!');    
+    res.end('Hello Holberton School!');
   } else if (req.url === '/students') {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     res.write('This is the list of our students\n');
     try {
-        const databasePath = process.argv[2];
-        const data = await countStudents(databasePath);
-        res.write(data);
+      const databasePath = process.argv[2];
+      const data = await countStudents(databasePath);
+      res.write(data);
     } catch (error) {
-        res.write(error.message);
+      res.write(error.message);
     } finally {
-        res.end();
+      res.end();
     }
-    } else {
-        res.statusCode =404;
-        res.setHeader('Content-Type', 'text/plain');
-        res.end('Not Found')
-    }
+  } else {
+    res.statusCode = 404;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Not Found');
+  }
 });
 
 // Listen on port 1245
