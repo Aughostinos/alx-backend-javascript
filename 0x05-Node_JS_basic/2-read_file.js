@@ -8,7 +8,7 @@ function countStudents(path) {
       throw new Error('Cannot load the database');
     }
     const students = {};
-    let students_num = 0;
+    let studentsNum = 0;
     for (let i = 1; i < lines.length; i++) {
       const line = lines[i].trim();
       if (line === '') continue;
@@ -18,7 +18,7 @@ function countStudents(path) {
         students[field] = [];
       }
       students[field].push(firstname);
-      students_num++;
+      studentsNum++;
     }
     console.log(`Number of students: ${students_num}`);
     // It should log the number of students in each field
