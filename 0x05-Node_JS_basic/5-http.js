@@ -10,7 +10,7 @@ const app = http.createServer(async (req, res) => {
   } else if (req.url === '/students') {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.write('This is the list of our students');
+    res.write('This is the list of our students\n');
     try {
         const databasePath = process.argv[2];
         const data = await countStudents(databasePath);
