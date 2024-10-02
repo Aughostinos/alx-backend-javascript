@@ -1,9 +1,9 @@
 // full_server/routes/index.js
-import { Router } from 'express';
+import express from 'express';
 import AppController from '../controllers/AppController';
 import StudentsController from '../controllers/StudentsController';
 
-const router = Router();
+const router = express.Router();
 
 router.get('/', AppController.getHomepage);
 router.get('/students', StudentsController.getAllStudents);
