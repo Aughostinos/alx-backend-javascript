@@ -1,4 +1,5 @@
 const http = require('http');
+const countStudents = require('./3-read_file_async');
 
 // Create a server
 const app = http.createServer((req, res) => {
@@ -10,8 +11,20 @@ const app = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
     res.end('This is the list of our students');
-  }
-  
+    try {
+        const databasePath = process.argv[2];
+        const data = await countStudents(databasePath);
+        res.write(data);
+    } catch (error) {
+        res.write(error.message);
+    } finally {
+        res.end();
+    }
+    } else {
+        res.statusCode =404;
+        res.setHeader('Content-Type', 'text/plain');
+        res.end('Not Found')
+    }
 });
 
 // Listen on port 1245
