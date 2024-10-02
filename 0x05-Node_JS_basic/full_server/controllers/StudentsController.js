@@ -1,5 +1,5 @@
 // full_server/controllers/StudentsController.js
-import { readDatabase } from '../utils';
+import readDatabase from '../utils';
 
 class StudentsController {
   static getAllStudents(request, response) {
