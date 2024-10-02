@@ -1,15 +1,14 @@
 const fs = require('fs');
 
-
 function countStudents(path) {
-  try{
+  try {
     const data = fs.readFileSync(path, 'utf-8');
     const lines = data.trim().split('\n');
     if (lines.length === 0) {
-        throw new Error('Cannot load the database')
+      throw new Error('Cannot load the database')
     }
     const students = {};
-    let students_num = 0;
+    let studentsNum = 0;
     for (let i = 1; i < lines.length; i++) {
       const line = lines[i].trim()
       if (line === '') continue;
@@ -18,8 +17,8 @@ function countStudents(path) {
       if (!students[field]) {
         students[field] = [];
       }
-      student[field].push(firstname);
-      students_num++;
+      students[field].push(firstname);
+      studentsNum++;
     }
     console.log(`Number of students: ${students_num}`);
     //It should log the number of students in each field
