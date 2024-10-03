@@ -17,4 +17,12 @@ describe('calculateNumber', () => {
   it('should return 6 when inputs are (1.5, 3.7)', () => {
     assert.strictEqual(calculateNumber(1.5, 3.7), 6);
   });
+
+  it('should handle negative numbers', () => {
+    assert.strictEqual(calculateNumber(-1.2, -3.7), -5);
+  });
+
+  it('should handle zero', () => {
+    assert.strictEqual(calculateNumber(0, 0), 0);
+  });
 });
