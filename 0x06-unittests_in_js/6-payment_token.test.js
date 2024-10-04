@@ -16,10 +16,9 @@ describe('getPaymentTokenFromAPI', () => {
   });
 
   it('should not resolve or reject when success is false', (done) => {
-    // Set a timeout to simulate the hanging promise
     const timeout = setTimeout(() => {
       done(new Error('Promise did not resolve or reject as expected.'));
-    }, 100); // 100ms timeout
+    }, 100);
 
     getPaymentTokenFromAPI(false)
       .then(() => {
